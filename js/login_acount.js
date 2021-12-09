@@ -16,7 +16,7 @@ $("#submit_button").click(function() {
         (async () => {
             toastr.success('Đăng nhập thành công');
             await sleep(2000);
-            window.location = 'http://127.0.0.1:5500/index.html'
+            window.location = 'index.html'
           })();
     }
     else{
